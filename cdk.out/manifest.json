@@ -1,0 +1,791 @@
+{
+  "version": "9.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "AwsCdkAppStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AwsCdkAppStack.template.json"
+      },
+      "metadata": {
+        "/AwsCdkAppStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0",
+              "id": "1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0",
+              "packaging": "zip",
+              "sourceHash": "1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0",
+              "s3BucketParameter": "AssetParameters1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0S3Bucket5EA66AEF",
+              "s3KeyParameter": "AssetParameters1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0S3VersionKeyD171B821",
+              "artifactHashParameter": "AssetParameters1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0ArtifactHash4A934180"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/construct-compat.ts:431:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:171:23)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "AwsCdkAppStack.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:151:40)",
+              "AssetCode.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-lambda/lib/code.ts:251:20)",
+              "new Function (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:131:26)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaFunctionServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaFunctionServiceRole0C123D8D",
+            "trace": [
+              "new Role (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:76:29)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaFunctionServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaFunctionServiceRoleDefaultPolicy253751F2",
+            "trace": [
+              "new Policy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-iam/lib/policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-iam/lib/role.ts:368:28)",
+              "Role.addToPolicy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-iam/lib/role.ts:376:17)",
+              "Function.addToRolePolicy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:263:15)",
+              "Function.buildTracingConfig (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:934:10)",
+              "new Function (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:636:27)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:131:26)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaFunction5DC51B7E",
+            "trace": [
+              "new Function (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:614:35)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:131:26)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/ApiAccessLogGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternApiAccessLogGroup9383E9FC",
+            "trace": [
+              "new LogGroup (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-logs/lib/log-group.ts:373:22)",
+              "Object.buildLogGroup (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/cloudwatch-log-group-helper.ts:33:20)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:175:20)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiC0598E46",
+            "trace": [
+              "new RestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:694:22)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiDeployment4109DB9389e39f0f13d332b34eef0b5a08d9da5a",
+            "trace": [
+              "new Deployment (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/deployment.ts:75:21)",
+              "LambdaRestApi.configureDeployment (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:510:32)",
+              "new RestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:714:10)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiDeploymentStageprodFDEB8074",
+            "trace": [
+              "new Stage (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/stage.ts:240:22)",
+              "LambdaRestApi.configureDeployment (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:520:30)",
+              "new RestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:714:10)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiEndpoint9A7AA3AD",
+            "trace": [
+              "LambdaRestApi.configureDeployment (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:525:7)",
+              "new RestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:714:10)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiproxyF368A2D5",
+            "trace": [
+              "new Resource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:446:22)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:518:5)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/{proxy+}/ANY/ApiPermission.AwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiproxyANYApiPermissionAwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168ANYproxy58BE5201",
+            "trace": [
+              "Function.addPermission (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:63:18)",
+              "new Method (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:540:18)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:527:29)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/{proxy+}/ANY/ApiPermission.Test.AwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiproxyANYApiPermissionTestAwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168ANYproxy06275EC2",
+            "trace": [
+              "Function.addPermission (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:71:20)",
+              "new Method (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:540:18)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:527:29)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiproxyANY321FD2C2",
+            "trace": [
+              "new Method (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:215:22)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:540:18)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:527:29)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/ANY/ApiPermission.AwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiANYApiPermissionAwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168ANY49142A0B",
+            "trace": [
+              "Function.addPermission (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:63:18)",
+              "new Method (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "RootResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:537:29)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:527:29)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/ANY/ApiPermission.Test.AwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiANYApiPermissionTestAwsCdkAppStackApiGatewayToLambdaPatternLambdaRestApiABDDE168ANY24495D7F",
+            "trace": [
+              "Function.addPermission (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:71:20)",
+              "new Method (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "RootResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:537:29)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:527:29)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiANY07ADEFED",
+            "trace": [
+              "new Method (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:215:22)",
+              "RootResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:537:29)",
+              "new ProxyResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:527:29)",
+              "RootResource.addProxy (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:95:12)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApi/UsagePlan/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiUsagePlan837CF24C",
+            "trace": [
+              "new UsagePlan (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/usage-plan.ts:158:16)",
+              "LambdaRestApi.addUsagePlan (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:352:12)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:113:8)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApiCloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiCloudWatchRole3977FB08",
+            "trace": [
+              "new Role (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "configureCloudwatchRoleForApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:32:33)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:98:18)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/ApiGatewayToLambdaPattern/LambdaRestApiAccount": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayToLambdaPatternLambdaRestApiAccountA31D1168",
+            "trace": [
+              "configureCloudwatchRoleForApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:53:38)",
+              "configureLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:98:18)",
+              "Object.GlobalLambdaRestApi (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/apigateway-helper.ts:178:32)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:80:43)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/AssetParameters/1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0S3Bucket5EA66AEF",
+            "trace": [
+              "new FileAssetParameters (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "AwsCdkAppStack.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:151:40)",
+              "AssetCode.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-lambda/lib/code.ts:251:20)",
+              "new Function (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:131:26)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/AssetParameters/1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0S3VersionKeyD171B821",
+            "trace": [
+              "new FileAssetParameters (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "AwsCdkAppStack.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:151:40)",
+              "AssetCode.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-lambda/lib/code.ts:251:20)",
+              "new Function (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:131:26)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/AssetParameters/1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1ebc9d3ac2033816c4abb63e4afd69d350b4aba8704cc9236b82ea520b74f4b0ArtifactHash4A934180",
+            "trace": [
+              "new FileAssetParameters (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "AwsCdkAppStack.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:151:40)",
+              "AssetCode.bind (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/aws-lambda/lib/code.ts:251:20)",
+              "new Function (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "deployLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:131:26)",
+              "Object.buildLambdaFunction (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/core/lib/lambda-helper.ts:47:14)",
+              "new ApiGatewayToLambda (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-solutions-constructs/aws-apigateway-lambda/lib/index.ts:73:36)",
+              "new AwsCdkAppStack (/home/katja/Documents/development/aws-cdk-app/lib/aws-cdk-app-stack.ts:11:5)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/bin/aws-cdk-app.ts:8:1)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Module.m._compile (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "main (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:999:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)",
+              "Module.load (internal/modules/cjs/loader.js:863:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:708:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)",
+              "/home/katja/.nvm/versions/node/v12.20.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:51:24)",
+              "/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:421:26)",
+              "process.emit (events.js:314:20)",
+              "process.EventEmitter.emit (domain.js:483:12)",
+              "process.emit (/home/katja/Documents/development/aws-cdk-app/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/AwsCdkAppStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:60:27)",
+              "/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/home/katja/Documents/development/aws-cdk-app/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:421:26)",
+              "process.emit (events.js:314:20)",
+              "process.EventEmitter.emit (domain.js:483:12)",
+              "process.emit (/home/katja/Documents/development/aws-cdk-app/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
